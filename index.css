@@ -134,6 +134,9 @@ span {
     gap: 20px;
     background: var(--second-bg-color);
 }
+iframe {
+    display: none;
+}
 .heading {
     text-align: center;
     font-size: 45px;
