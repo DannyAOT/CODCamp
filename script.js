@@ -18,7 +18,7 @@ window.onscroll = () => {
 
         if(top => offset && top < offset + height) {
             navLinks.forEach(links => {
-                links.classList.remove('');
+                links.classList.remove('active');
                 document.querySelector('header nav a[href*=' + id +']').classList.add('active');
             });
         };
@@ -32,8 +32,3 @@ window.onscroll = () => {
     navbar.classList.remove('active');
 };
 
-var loader = document.getElementById(preload)
-    
-window.addEventListener("load", function(){
-    loader.style.display = "none";
-})
